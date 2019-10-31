@@ -5,7 +5,7 @@ class Menor(models.Model):
     nome_responsavel = models.CharField( max_length=50,verbose_name='Nome do Responsavel')
     idade_resp = models.IntegerField(max_length=50, verbose_name='Idade do responsavel')
     genero_resp = models.CharField(max_length=50, verbose_name='Gênero do responsavel')
-    cpf = models.IntegerField(max_length=50, verbose_name='CPF')
+    cpf_resp = models.IntegerField(max_length=50, verbose_name='CPF do responsavel')
     contato = models.IntegerField(max_length=50, verbose_name='Contato')
     cep = models.IntegerField(max_length=50, verbose_name='CEP')
     nome_menor = models.CharField(max_length=50, verbose_name='Nome do menor')

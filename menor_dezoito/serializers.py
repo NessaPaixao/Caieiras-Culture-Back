@@ -9,7 +9,7 @@ class MenorSerializer(serializers.ModelSerializer):
                   'nome_responsavel',
                   'idade_resp',
                   'genero_resp',
-                  'cpf',
+                  'cpf_resp',
                   'contato',
                   'cep',
                   'nome_menor',
