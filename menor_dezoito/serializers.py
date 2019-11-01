@@ -5,7 +5,7 @@ from menor_dezoito.models import Menor
 class MenorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Menor
-        fields = ('id',
+        fields = ['id',
                   'nome_responsavel',
                   'idade_resp',
                   'genero_resp',
@@ -17,4 +17,4 @@ class MenorSerializer(serializers.ModelSerializer):
                   'genero',
                   'email',
                   'senha'
-                  )
+                  ]
