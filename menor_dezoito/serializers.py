@@ -8,13 +8,12 @@ class MenorSerializer(serializers.ModelSerializer):
         fields = ['id',
                   'nome_responsavel',
                   'idade_resp',
-                  'genero_resp',
-                  'cpf',
+                  'cpf_resp',
                   'contato',
-                  'cep',
-                  'nome_menor',
-                  'idade_menor',
-                  'genero',
                   'email',
                   'senha'
+                  'nome_menor',
+                  'idade_menor',
+                  'cpf_menor',
+                  'cep',
                   ]
