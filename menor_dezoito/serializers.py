@@ -11,7 +11,7 @@ class MenorSerializer(serializers.ModelSerializer):
                   'cpf_resp',
                   'contato',
                   'email',
-                  'senha'
+                  'senha',
                   'nome_menor',
                   'idade_menor',
                   'cpf_menor',
