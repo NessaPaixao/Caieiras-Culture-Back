@@ -5,16 +5,15 @@ from menor_dezoito.models import Menor
 class MenorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Menor
-        fields = ('id',
+        fields = ['id',
                   'nome_responsavel',
                   'idade_resp',
-                  'genero_resp',
-                  'cpf',
+                  'cpf_resp',
                   'contato',
-                  'cep',
+                  'email',
+                  'senha',
                   'nome_menor',
                   'idade_menor',
-                  'genero',
-                  'email',
-                  'senha'
-                  )
+                  'cpf_menor',
+                  'cep',
+                  ]
