@@ -17,11 +17,10 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 from maior_dezoito.views import ResponsavelViewSet
-from menor_dezoito.views import MenorViewSet
+
 
 router = routers.DefaultRouter()
 router.register(r'responsavel', ResponsavelViewSet)
-router.register(r'menor', MenorViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

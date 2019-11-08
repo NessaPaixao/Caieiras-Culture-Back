@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'maior_dezoito',
-    'menor_dezoito',
 ]
 
 MIDDLEWARE = [
