@@ -1,4 +1,4 @@
-# Caieiras-Culture-Back
+# Culturando-Back
 Repositório separado exclusivamente para Backend
 
 ## Integrantes 
